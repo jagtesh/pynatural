@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pynatural"
-version = "0.1.0"
+version = "0.2.0"
 description = "Apple NaturalLanguage framework from Python — powered by Swift & ApplePy"
 readme = "README.md"
 license = {text = "BSD-3-Clause"}
@@ -22,3 +22,6 @@ Repository = "https://github.com/jagtesh/pynatural"
 
 [tool.setuptools.packages.find]
 include = ["pynatural*"]
+
+[tool.setuptools.package-data]
+pynatural = ["*.so"]
